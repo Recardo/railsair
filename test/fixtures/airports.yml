@@ -1,0 +1,22 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+muc:
+  code: MUC
+  name: München
+  country: germany
+
+dus:
+  code: DUS
+  name: Düsseldorf
+  country: germany
+
+hnd:
+  code: HND
+  name: Tokyo
+  country: japan
+
+sfo:
+  code: SFO
+  name: San Franscisco
+  country: usa
+

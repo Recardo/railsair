@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Nr:</b>
+  <%= @flight.nr %>
+</p>
+
+<p>
+  <b>Departure datetime:</b>
+  <%= @flight.departure_datetime %>
+</p>
+
+<p>
+  <b>Arrival datetime:</b>
+  <%= @flight.arrival_datetime %>
+</p>
+
+<p>
+  <b>Departure airport:</b>
+  <%= @flight.departure_airport_id %>
+</p>
+
+<p>
+  <b>Arrival airport:</b>
+  <%= @flight.arrival_airport_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_flight_path(@flight) %> |
+<%= link_to 'Back', flights_path %>
