@@ -1,5 +1,6 @@
 require 'test_helper'
 
+
 class FlightsControllerTest < ActionController::TestCase
   setup do
     @flight = flights(:dus_muc)
