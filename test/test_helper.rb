@@ -27,7 +27,7 @@ class ActiveSupport::TestCase
 
   def valid_flight_attributes(add_attributes={})
     {
-      :nr => "RA123",
+      :nr => "RA447",
       :departure_datetime => Time.parse("2008-08-30 12:50"),
       :arrival_datetime => Time.parse("2008-08-30 13:50"),
       :departure_airport_id => airports(:dus).id,

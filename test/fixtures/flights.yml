@@ -1,15 +1,15 @@
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
 
-duc_muc:
+dus_muc:
   nr: RA447
   departure_datetime: 2011-02-12 17:22:13
   arrival_datetime: 2011-02-12 17:22:13
-  departure_airport_id: dus
-  arrival_airport_id: muc
+  departure_airport: dus
+  arrival_airport: muc
 
-muc_duc:
+mus_duc:
   nr: RA448
   departure_datetime: 2011-02-12 17:22:13
   arrival_datetime: 2011-02-12 17:22:13
-  departure_airport_id: muc
-  arrival_airport_id: dus
+  departure_airport: muc
+  arrival_airport: dus
